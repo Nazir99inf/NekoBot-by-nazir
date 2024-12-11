@@ -1,12 +1,12 @@
 const fs = require('node:fs');
 
 const config = {
-    owner: ["6285165556936", "6285215909004"],
-    name: "- nekoBot - Simple WhatsApp bot",
-    sessions: "sessions",
+    owner: ["6285822146627"],
+    name: "- nekoBot - by nazir Simple WhatsApp bo",
+    sessions: "nazir-sessi",
     sticker: {
       packname: "Made by ",
-      author: "nekoBot"
+      author: "nekoBot x nazir simple"
     },
    messages: {
       wait: "*( Loading )* Tunggu Sebentar...",
@@ -14,8 +14,8 @@ const config = {
       premium: "*( Denied )* Fitur ini khusus user premium",
       group: "*( Denied )* Fitur ini khusus group",
    },
-   database: "neko-db",
-   tz: "Asia/Jakarta"
+   database: "db-nazir",
+   tz: "Asia/Makassar"
 }
 
 module.exports = config
