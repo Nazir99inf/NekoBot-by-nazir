@@ -12,19 +12,19 @@
   msg: '>_ Welcome to NekoBot',
   isMedia: false,
   key: {
-    remoteJid: '6285165556936@s.whatsapp.net',
-    participant: '6285165556936@s.whatsapp.net',
+    remoteJid: '6285822146627@s.whatsapp.net',
+    participant: '6285822146627@s.whatsapp.net',
     fromMe: false,
     id: '5780C33F89C0BE600B6D71DF79C4FC02'
   },
-  cht: '6285165556936@s.whatsapp.net',
+  cht: '6285822146627@s.whatsapp.net',
   fromMe: false,
   id: '5780C33F89C0BE600B6D71DF79C4FC02',
   device: 'android',
   isBot: false,
   isGroup: false,
-  participant: '6285165556936@s.whatsapp.net',
-  sender: '6285165556936@s.whatsapp.net',
+  participant: '6285822146627@s.whatsapp.net',
+  sender: '6285822146627@s.whatsapp.net',
   mentions: [],
   body: '>_ Welcome to NekoBot',
   prefix: '',
@@ -49,13 +49,13 @@ const config = {
       author: "nekoBot x nazir"
     },
    messages: {
-      wait: "*( Loading )* Tunggu Sebentar...",
+      wait: "*( Loading )* Plase Wait...",
       owner: "*( Denied )* Kamu bukan owner ku !",
       premium: "*( Denied )* Fitur ini khusus user premium",
       group: "*( Denied )* Fitur ini khusus group",
    },
    database: "db-nazir",
-   tz: "Asia/Jakarta"
+   tz: "Asia/Makassar"
 }
 
 module.exports = config
@@ -66,8 +66,8 @@ module.exports = config
 
 
 ```bash
- git clone https://github.com/AxellNetwork/NekoBot
- cd nekoBot
+ git clone https://github.com/Nazir99inf/NekoBot-by-nazir
+ cd NekoBot-by-nazir
  npm install
  npm start
 ```
