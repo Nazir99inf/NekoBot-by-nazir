@@ -52,7 +52,7 @@ async function ytmp3(url) {
                 url: videoDetails.url,
                 description: videoDetails.description
             },
-            download: result
+            download: await fetch(result).then(async(a) => Buffer.from(await a.arrayBuffer()))
         };
     } catch (error) {
         throw error;
@@ -104,7 +104,7 @@ async function ytmp4(url) {
                 url: videoDetails.url,
                 description: videoDetails.description
             },
-            download: result
+            download: await fetch(result).then(async(a) => Buffer.from(await a.arrayBuffer()))
         };
     } catch (error) {
         throw error;
