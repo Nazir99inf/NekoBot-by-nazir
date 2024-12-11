@@ -36,12 +36,12 @@ module.exports = {
             alias += command.alias.length; 
         });
     });
-      let caption = `*🍟 Selamat datang di Dashboard bot*
-Nama saya nekoBot - , Berikut list command bot ini
+      let caption = `*👋Selamat datang di Dashboard bot*
+Nama saya Nazir - , Berikut list command bot ini
 
 *– 乂 Info User*
 > *- Nama :* ${m.pushName}
-> *- Perangkat :* ${m.device}
+> *- Browser :*Microsoft Edge (Unbuntu)
 > *- Tag :* @${m.sender.split("@")[0]}
 
 *– 乂 Info - Bot*
@@ -70,7 +70,7 @@ Object.entries(menu).forEach(([tag, commands]) => {
             forwardingScore: 127,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: "120363355890061032@newsletter",
-                newsletterName: "☘️ nekoBot | Playground",
+                newsletterName: "☘️ nekoBot | YouKnowZir👑",
                  serverMessageId: -1
              },
               externalAdReply: {
@@ -78,7 +78,7 @@ Object.entries(menu).forEach(([tag, commands]) => {
                body: "- NekoBot adalah bot WhatsApp yang didesain untuk membantu anda di WhatsApp",
                mediaType: 1,
                thumbnailUrl: "https://files.catbox.moe/yupd7z.jpg",
-               sourceUrl: "https://api.botwa.space",
+               sourceUrl: "https://wa.me/6285822146627?text=i love you❤️",
                renderLargerThumbnail: true
            }
          }
