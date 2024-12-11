@@ -88,9 +88,9 @@ const store = makeInMemoryStore({
      })
   })
   if (!fs.existsSync("./tmp")) return fs.mkdirSync("./tmp")
-  console.log(chalk.blue.bold("- Hi Welcome to NekoBot !"))
-  console.log(chalk.white.bold("| Terimakasih telah menggunakan Script ini !"))
-  console.log(chalk.white.bold("| Github saya [Follow] : " + chalk.cyan.bold("https://github.com/AxellNetwork")))
+  console.log(chalk.yellow.bold("- Hi Welcome to NekoBot !"))
+  console.log(chalk.green.bold("| Thank You For Ussing The Script !"))
+  console.log(chalk.white.bold("| Plase Follow My GitHub: " + chalk.cyan.bold("https://github.com/Nazir99inf")))
   console.log(chalk.white.bold("––––––––––––––––––––"))
   
 async function system() {
